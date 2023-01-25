@@ -1,0 +1,46 @@
+
+body {
+    font-family: sans-serif;
+    background: #020202;
+}
+
+p {
+    font-style:italic;
+    font-size: 1.7em;
+    padding: 0.2em 2em;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
+
+.texts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+img {
+    padding: 2em;
+    width: 70%;
+    height: auto;
+}
+
+button {
+    font-size: 1rem;
+    padding: 1em;
+  background: #3c0d0d;
+  color: lightgray;
+  border: lightgray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+ background: #351038;
+}
